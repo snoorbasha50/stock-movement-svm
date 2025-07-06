@@ -6,8 +6,8 @@ import joblib
 from generate_features import generate_features
 
 # Load model and scaler
-model = joblib.load('./model.pkl')
-scaler = joblib.load('./scaler.pkl')
+model = joblib.load('../frontend/model.pkl')
+scaler = joblib.load('../frontend/scaler.pkl')
 
 # Ticker map: Ticker → Company Name
 company_map = {
