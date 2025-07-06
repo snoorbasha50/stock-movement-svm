@@ -50,18 +50,17 @@ This project predicts **next-day stock price movement (UP/DOWN)** using a **Supp
 
 ## 📁 Project Structure
 ```
-SVM/
-├── backend/
-│   ├── model.pkl                # Trained SVM model
-│   ├── scaler.pkl               # Scaler used during training
-│   └── generate_features.py     # Feature generation logic
-├── frontend/
-│   └── app.py                   # Streamlit frontend app
+stock-movement-svm/
+├── app.py                   # Streamlit frontend app
+├── model.pkl                # Trained SVM model
+├── scaler.pkl               # Scaler used during training
+├── generate_features.py     # Feature engineering logic
+├── requirements.txt         # Dependencies
+├── README.md                # Project documentation
 ├── screenshots/
-│   ├── screenshot-ui.png        # Screenshot of the Streamlit UI
-│   └── confusion-matrix.png     # Model performance visualization
-├── requirements.txt
-└── README.md
+│   ├── screenshot-ui.png        # UI screenshot
+│   └── confusion-matrix.png     # Confusion matrix of model performance
+
 ```
 
 
