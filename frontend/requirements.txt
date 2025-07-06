@@ -1,6 +1,8 @@
 streamlit
+scikit-learn
+yfinance
 pandas
 numpy
-scikit-learn
+matplotlib
+seaborn
 joblib
-yfinance
